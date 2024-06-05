@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="youtubeCell" rowHeight="367" id="KGk-i7-Jjw" customClass="YoutubeTableViewCell" customModule="Feed_Screen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="561" height="367"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="561" height="367"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKe-bg-eOX">
+                        <rect key="frame" x="10" y="10" width="541" height="347"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dLk-mT-zRy">
+                                <rect key="frame" x="0.0" y="10" width="531" height="40.666666666666664"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fd0-Rc-gfE">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="20.333333333333332"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dja-ee-jTv">
+                                                <rect key="frame" x="0.0" y="0.99999999999999822" width="40" height="19"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="yTo-Tp-Jvg"/>
+                                                </constraints>
+                                                <imageReference key="image" image="person.circle.fill" catalog="system" symbolScale="default"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3TD-1w-fd4">
+                                        <rect key="frame" x="40" y="0.0" width="491" height="40.666666666666664"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5iO-qq-Hgz">
+                                                <rect key="frame" x="0.0" y="0.0" width="491" height="20.333333333333332"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0I-nI-zxD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="449.66666666666669" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="none" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFT-Bj-IlD">
+                                                        <rect key="frame" x="449.66666666666669" y="0.0" width="41.333333333333314" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsh-j8-jUX">
+                                                <rect key="frame" x="0.0" y="20.333333333333336" width="491" height="20.333333333333336"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ERf-Yi-5nc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="491" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="3y4-Wr-kyc"/>
+                                <constraints>
+                                    <constraint firstItem="dja-ee-jTv" firstAttribute="centerY" secondItem="w0I-nI-zxD" secondAttribute="centerY" id="ymk-AV-uZP"/>
+                                </constraints>
+                            </stackView>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yjm-u7-uFD">
+                                <rect key="frame" x="40" y="60.666666666666657" width="491" height="276.33333333333337"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Yjm-u7-uFD" secondAttribute="height" multiplier="16:9" id="tty-j4-tvY"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68433191729999998" green="1" blue="0.84246900849999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dLk-mT-zRy" firstAttribute="leading" secondItem="TKe-bg-eOX" secondAttribute="leading" id="0QI-J2-mIt"/>
+                            <constraint firstItem="dLk-mT-zRy" firstAttribute="leading" secondItem="TKe-bg-eOX" secondAttribute="leading" id="6od-0i-kgd"/>
+                            <constraint firstItem="dLk-mT-zRy" firstAttribute="top" secondItem="TKe-bg-eOX" secondAttribute="top" constant="10" id="B1r-VX-RmO"/>
+                            <constraint firstItem="Yjm-u7-uFD" firstAttribute="leading" secondItem="TKe-bg-eOX" secondAttribute="leading" constant="40" id="WBo-uW-f8q"/>
+                            <constraint firstAttribute="bottom" secondItem="Yjm-u7-uFD" secondAttribute="bottom" constant="10" id="a9S-L9-IXT"/>
+                            <constraint firstAttribute="trailing" secondItem="Yjm-u7-uFD" secondAttribute="trailing" constant="10" id="gIR-hW-EpC"/>
+                            <constraint firstAttribute="trailing" secondItem="dLk-mT-zRy" secondAttribute="trailing" constant="10" id="lGk-Ta-VVP"/>
+                            <constraint firstItem="Yjm-u7-uFD" firstAttribute="top" secondItem="dLk-mT-zRy" secondAttribute="bottom" constant="10" id="mLf-tL-H11"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="TKe-bg-eOX" secondAttribute="trailing" constant="10" id="KAn-eC-mQh"/>
+                    <constraint firstItem="TKe-bg-eOX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="VFz-qC-dOm"/>
+                    <constraint firstAttribute="bottom" secondItem="TKe-bg-eOX" secondAttribute="bottom" constant="10" id="fpY-AZ-HDI"/>
+                    <constraint firstItem="TKe-bg-eOX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ldX-CF-sER"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="vFT-Bj-IlD" id="7g2-WW-y8s"/>
+                <outlet property="dateTitleStack" destination="5iO-qq-Hgz" id="1rI-Ph-tyS"/>
+                <outlet property="leftStack" destination="fd0-Rc-gfE" id="jX1-qc-pHc"/>
+                <outlet property="mainStack" destination="dLk-mT-zRy" id="Jy1-Sp-WhN"/>
+                <outlet property="noteLabel" destination="ERf-Yi-5nc" id="qrR-1U-fag"/>
+                <outlet property="noteStack" destination="gsh-j8-jUX" id="5Ac-15-Ym6"/>
+                <outlet property="personImage" destination="dja-ee-jTv" id="6eP-3g-EGj"/>
+                <outlet property="rightStack" destination="3TD-1w-fd4" id="FaJ-NS-hKr"/>
+                <outlet property="titleLabel" destination="w0I-nI-zxD" id="2MB-HU-pCj"/>
+                <outlet property="videoView" destination="TKe-bg-eOX" id="EAJ-NC-utU"/>
+                <outlet property="viewTube" destination="Yjm-u7-uFD" id="wdM-bO-2t5"/>
+            </connections>
+            <point key="canvasLocation" x="264.8854961832061" y="133.45070422535213"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="91" id="KGk-i7-Jjw" customClass="MyCellTableViewCell" customModule="Feed_Screen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="VtK-GI-shz">
+                        <rect key="frame" x="20" y="10" width="341" height="71"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Spb-1d-8bC">
+                                <rect key="frame" x="5" y="5" width="336" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDo-HH-Sk8">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iys-s3-Mk6">
+                                        <rect key="frame" x="0.0" y="24" width="41.333333333333336" height="14"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="drV-kB-3Se">
+                                <rect key="frame" x="282" y="43" width="59" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRw-so-e9p">
+                                        <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="18"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="message" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CGK-Wx-HFS">
+                                        <rect key="frame" x="37.333333333333314" y="0.33333333333333215" width="21.666666666666671" height="17.333333333333336"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="Spb-1d-8bC" firstAttribute="leading" secondItem="VtK-GI-shz" secondAttribute="leading" constant="5" id="67u-wi-tNg"/>
+                            <constraint firstItem="Spb-1d-8bC" firstAttribute="top" secondItem="VtK-GI-shz" secondAttribute="top" constant="5" id="Rv8-ig-aie"/>
+                            <constraint firstAttribute="bottom" secondItem="drV-kB-3Se" secondAttribute="bottom" constant="10" id="qkU-5f-Vlc"/>
+                            <constraint firstAttribute="trailing" secondItem="drV-kB-3Se" secondAttribute="trailing" constant="10" id="sjS-ad-QZw"/>
+                            <constraint firstItem="Spb-1d-8bC" firstAttribute="leading" secondItem="VtK-GI-shz" secondAttribute="leading" constant="5" id="yGd-t9-uB4"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VtK-GI-shz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="O32-gX-aN0"/>
+                    <constraint firstAttribute="trailing" secondItem="VtK-GI-shz" secondAttribute="trailing" constant="10" id="R7a-pD-iFX"/>
+                    <constraint firstItem="VtK-GI-shz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="dSd-UG-yO8"/>
+                    <constraint firstAttribute="bottom" secondItem="VtK-GI-shz" secondAttribute="bottom" constant="10" id="ut9-xX-nUY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="FRw-so-e9p" id="YvN-VM-GAL"/>
+                <outlet property="leftStack" destination="Spb-1d-8bC" id="ka7-YM-DLK"/>
+                <outlet property="msgImage" destination="CGK-Wx-HFS" id="4HN-WZ-aJZ"/>
+                <outlet property="msgLabel" destination="Iys-s3-Mk6" id="kb0-0u-ngQ"/>
+                <outlet property="myStack" destination="VtK-GI-shz" id="QKm-7o-Q9r"/>
+                <outlet property="rightStack" destination="drV-kB-3Se" id="8d5-kZ-Vqn"/>
+                <outlet property="titleLabel" destination="HDo-HH-Sk8" id="aFR-7v-Fb1"/>
+            </connections>
+            <point key="canvasLocation" x="52.671755725190835" y="35.563380281690144"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="message" catalog="system" width="128" height="116"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

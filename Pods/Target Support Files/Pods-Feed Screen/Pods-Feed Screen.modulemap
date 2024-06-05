@@ -1,0 +1,6 @@
+framework module Pods_Feed_Screen {
+  umbrella header "Pods-Feed Screen-umbrella.h"
+
+  export *
+  module * { export * }
+}
